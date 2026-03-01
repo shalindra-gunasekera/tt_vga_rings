@@ -9,12 +9,20 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The ring display uses the ui_in byte to set the speed and colours present in the rings. The bit description enables the following when enabled:
+
+ui_in[1:0] - speed select
+
+ui_in[2] - Reverse Direction
+ui_in[3] - Red Disable
+ui_in[4] - Green Disable
+ui_in[5] - Blue Disabled
+ui_in[7:6] - not used
 
 ## How to test
 
-Explain how to use your project
+Simply just tie the relevant pins to toggle the relevant settings
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+VGA display and connecter will be required.
