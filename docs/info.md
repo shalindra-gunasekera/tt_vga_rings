@@ -13,11 +13,11 @@ The ring display uses the ui_in byte to set the speed and colours present in the
 
 ui_in[1:0] - speed select
 
-ui_in[2] - Reverse Direction
-ui_in[3] - Red Disable
-ui_in[4] - Green Disable
-ui_in[5] - Blue Disabled
-ui_in[7:6] - not used
+- ui_in[2]: Reverse Direction
+- ui_in[3]: Red Disable
+- ui_in[4]: Green Disable
+- ui_in[5]: Blue Disabled
+- ui_in[7:6]: not used
 
 ## How to test
 
