@@ -11,8 +11,8 @@ You can also include images in this folder and reference them in the markdown. E
 
 The ring display uses the ui_in byte to set the speed and colours present in the rings. The bit description enables the following when enabled:
 
-ui_in[1:0] - speed select
 
+- ui_in[1:0] - speed select
 - ui_in[2]: Reverse Direction
 - ui_in[3]: Red Disable
 - ui_in[4]: Green Disable
