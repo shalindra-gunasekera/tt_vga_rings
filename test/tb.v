@@ -28,7 +28,7 @@ module tb ();
 `endif
 
   // Replace tt_um_example with your module name:
-  tt_um_shalindra-gunasekera_vga_rings (
+  tt_um_shalindra_vga_rings (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
